@@ -1,0 +1,470 @@
+  html,
+  body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  * {
+      box-sizing: inherit;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: verdana, arial, sans-serif;
+      color: #555555;
+      font-size: 0.9em;
+  }
+
+
+  .topBar {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      border-bottom: 1px solid #555555;
+
+  }
+
+  .topBar-content {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      max-width: 1140px;
+      width: 100%;
+
+  }
+
+  .topBar-esq {
+      display: flex;
+      align-items: center;
+      font-size: 0.8em;
+      height: 40px;
+
+  }
+
+  .topBar-dire {
+      display: flex;
+      align-items: center;
+      height: 40px;
+
+  }
+
+  .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 40px;
+      border: 1px solid #555555;
+  }
+
+  .icone {
+
+      width: 16px;
+      height: 16px;
+
+  }
+
+
+
+  .navBar {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      border-bottom: 1px solid #555555;
+      position: sticky;
+      top: 0%;
+      background-color: #ffffff;
+      z-index: 10;
+
+
+  }
+
+  .imgLogo {
+
+      max-height: 60px;
+
+  }
+
+  .navBar-content {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      max-width: 1140px;
+      width: 100%;
+
+
+  }
+
+  .navBar-dire {
+
+      display: flex;
+      align-items: center;
+      height: 40px;
+
+  }
+
+  .menu {
+
+      padding: 0 18px;
+      font-weight: 600;
+      font-weight: 0.8em;
+      color: #888888;
+
+  }
+
+  .menuButton {
+      display: none;
+      padding: 0 18px;
+      cursor: pointer;
+
+
+  }
+
+  .btnMenu {
+      width: 24px;
+      height: 24px;
+
+  }
+
+  .hero-section {
+      position: relative;
+      text-align: center;
+      color: white;
+  }
+
+  .hero-section img {
+      width: 100%;
+      height: auto;
+  }
+
+  .hero-text {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      max-width: 20%;
+  }
+
+  .hero-text h1 {
+      font-size: 2em;
+      margin: 0;
+  }
+
+  .hero-text a {
+
+      margin-top: 20px;
+      display: inline-block;
+      background-color: transparent;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+  }
+
+  .hero-text a:hover {
+      background-color: white;
+      color: black;
+  }
+
+  .container {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #f5f5f5;
+      padding: 0px;
+
+  }
+
+  .item {
+      text-align: center;
+      padding: 20px;
+      flex: 1;
+  }
+
+  .item img {
+      max-width: 100px;
+      margin-bottom: 10px;
+  }
+
+  .cursos {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+  }
+
+  .cursos h2 {
+      margin-bottom: 20px;
+  }
+
+  .cursos .card-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+
+  }
+
+  .card {
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      margin: 10px;
+      border-radius: 8px;
+      text-align: center;
+  }
+
+  .card img {
+      max-width: 100%;
+  }
+
+  .vaga-estagio {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 60px 20px;
+  }
+
+  .vaga-estagio h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+
+  .vaga-estagio p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+  }
+
+  .vaga-estagio {
+      background-color: #f5f5f5;
+      text-align: left;
+      padding: 60px 20px;
+  }
+
+  .vaga-estagio h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+
+  .vaga-estagio p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+  }
+
+  .vaga-estagio a {
+      display: inline-block;
+      background-color: transparent;
+      color: #007bff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border: 2px solid #007bff;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+  }
+
+  .vaga-estagio a:hover {
+      background-color: #007bff;
+      color: white;
+  }
+
+  .footer {
+      background-color: #333;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .footer .container {
+      background-color: #333;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .footer .footer-links,
+  .footer .footer-about {
+      background-color: #333;
+
+      flex: 1;
+      margin-bottom: 20px;
+  }
+
+  .footer h3 {
+      margin-bottom: 15px;
+      color: #ffffff;
+  }
+
+  .footer ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .footer ul li {
+      margin-bottom: 10px;
+  }
+
+  .footer ul li a {
+      color: #ddd;
+      text-decoration: none;
+  }
+
+  .footer ul li a:hover {
+      text-decoration: underline;
+  }
+
+  .footer p {
+      margin: 0;
+  }
+
+  .footer a {
+      color: #ddd;
+      text-decoration: none;
+  }
+
+  .footer a:hover {
+      text-decoration: underline;
+  }
+
+  #page-footer {
+      background-color: #333;
+      color: #ddd;
+
+  }
+
+  #page-footer .container {
+      background-color: #333;
+
+
+  }
+
+  #page-footer .a:hover {
+      text-decoration: underline;
+
+  }
+
+
+
+  .container2 {
+      width: 65%;
+      margin: 0 auto;
+      padding: 20px;
+  }
+
+  .header {
+      text-align: center;
+      margin: 20px 0;
+  }
+
+  .header h1 {
+      margin: 0;
+  }
+
+  .header p {
+      margin: 5px 0;
+      color: #666;
+  }
+
+  .content {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .content .left,
+  .content .right {
+      width: 48%;
+  }
+
+  .content .left {
+      background-color: #fff;
+      padding: 20px;
+      width: 30%;
+
+  }
+
+  .content .left h2 {
+      margin-top: 0;
+  }
+
+  .content .left p {
+      margin-bottom: 20px;
+  }
+
+  .content .left a {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid #007bff;
+      color: #007bff;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+
+  .content .left a:hover {
+      background-color: #007bff;
+      color: #fff;
+  }
+
+  .content .right .box {
+      background-color: #fff;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .content .right .box h3 {
+      margin: 0;
+  }
+
+  .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+
+      align-items: flex-start;
+      flex-wrap: wrap;
+  }
+
+  @media (max-width: 1260px) {
+      .topBar-content {
+          max-width: 940px;
+      }
+
+      .content .left {
+
+          width: 50%;
+
+      }
+
+      .right .box {
+
+          width: 100%;
+      }
+
+      .hero-text {
+          font-size: 0.5em;
+
+      }
+  }
+
+
+  @media (max-width: 980px) {
+      .topBar-content {
+          flex-direction: column;
+      }
+
+
+  }
